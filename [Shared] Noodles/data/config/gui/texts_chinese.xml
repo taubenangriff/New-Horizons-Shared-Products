@@ -1,0 +1,13 @@
+
+<ModOps>
+  <ModOp Type = "add" Path = "/TextExport/Texts">
+    <Text>
+      <GUID>1440238</GUID>
+      <Text>面条</Text>
+    </Text>
+    <Text>
+      <GUID>1414006832</GUID>
+      <Text>可怜的路易吉仍然认为这是意大利人......</Text>
+    </Text>
+  </ModOp>
+</ModOps>

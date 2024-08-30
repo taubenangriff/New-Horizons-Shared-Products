@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440025</GUID>
+      <Text>실버 바</Text>
+    </Text>
+    <Text>
+      <GUID>1414018049</GUID>
+      <Text>유일무이한 실버</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type = "add" Path = "/TextExport/Texts">
+    <Text>
+      <GUID>1440238</GUID>
+      <Text>국수</Text>
+    </Text>
+    <Text>
+      <GUID>1414006832</GUID>
+      <Text>불쌍한 루이지는 여전히 이것이 이탈리아인이라고 생각합니다. . .</Text>
+    </Text>
+  </ModOp>
+</ModOps>

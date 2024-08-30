@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type = "add" Path = "/TextExport/Texts">
+    <Text>
+      <GUID>1440238</GUID>
+      <Text>Pasta</Text>
+    </Text>
+    <Text>
+      <GUID>1414006832</GUID>
+      <Text>Il povero Luigi pensa ancora che questo sia italiano...</Text>
+    </Text>
+  </ModOp>
+</ModOps>

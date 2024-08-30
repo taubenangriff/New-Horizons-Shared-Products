@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440025</GUID>
+      <Text>Silver Bars</Text>
+    </Text>
+    <Text>
+      <GUID>1414018049</GUID>
+      <Text>The one and only Silver</Text>
+    </Text>
+  </ModOp>
+</ModOps>
