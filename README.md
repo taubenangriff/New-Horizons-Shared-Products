@@ -1,5 +1,9 @@
 # Products
 
+Product mods contain product asset, icon, storage list, expedition values and Docklands information if applicable - at least a fake factory for IsMainFactory handling.
+
+There are no standalone production mods as all production is either to be created by the implementing modder, or they are simply part of the Asian Region. 
+
 |Icon | Name | GUID | Product | Unlock | 
 -|-|-|-|-
 <img src="./mods/[Shared] Silver/data/graphics/ui/icons/goods/icon_silver.png" style="vertical-align: text-bottom;18px" width="18" /> | Silver | 1440025 | [Shared] Silver  | |
