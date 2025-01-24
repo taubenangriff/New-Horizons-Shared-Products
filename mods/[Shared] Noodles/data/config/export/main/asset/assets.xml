@@ -32,7 +32,6 @@
                         </Item>
                     </ExpeditionAttributes>
                 </ExpeditionAttribute>
-                <Locked />
             </Values>
         </Asset>
     </ModOp>
