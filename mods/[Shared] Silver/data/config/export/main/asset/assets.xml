@@ -22,14 +22,14 @@
                 <AssociatedRegion />
                 <ProductionRegions />
             </Product>
-            <ExpeditionAttributes>
+            <ExpeditionAttribute>
               <ExpeditionAttributes>
                 <Item>
                   <Attribute>Diplomacy</Attribute>
                   <Amount>20</Amount>
                 </Item>
               </ExpeditionAttributes>
-            </ExpeditionAttributes>
+            </ExpeditionAttribute>
         </Values>
     </Asset>
     </ModOp>
