@@ -6,6 +6,7 @@ There are no standalone production mods as all production is either to be create
 
 |Icon | Name | GUID | Product | Production in New Horizons | Notes
 -|-|-|-|-|-
+<img src=".%2Fmods%2F%5BShared%5D%20Incense%2Fdata%2Fgraphics%2Fui%2Ficons%2Fgoods%2Ficon_incense.png" style="vertical-align: text-bottom;18px" width="18" /> | Incense | 1440306 | `[Shared] Incense`  | Trader Lifestyle ||
 <img src=".%2Fmods%2F%5BShared%5D%20Noodles%2Fdata%2Fgraphics%2Fui%2Ficons%2Fgoods%2Ficon_noodles.png" style="vertical-align: text-bottom;18px" width="18" /> | Noodles | 1440238 | `[Shared] Noodles`  | Kitchen ||
 <img src=".%2Fmods%2F%5BShared%5D%20Tofu%2Fdata%2Fgraphics%2Fui%2Ficons%2Fgoods%2Ficon_tofu.png" style="vertical-align: text-bottom;18px" width="18" /> | Tofu | 1440239 | `[Shared] Tofu`  | Kitchen ||
 <img src="./mods/[Shared] Silver/data/graphics/ui/icons/goods/icon_silver.png" style="vertical-align: text-bottom;18px" width="18" /> | Silver | 1440025 | `[Shared] Silver`  | FTC import | |
