@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440021</GUID>
+      <Text>Macchine tabulatrici</Text>
+    </Text>
+    <Text>
+      <GUID>1414018192</GUID>
+      <Text>Contabilità fulminea con schede perforate fresche di scaffale dall'altra parte del mondo.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

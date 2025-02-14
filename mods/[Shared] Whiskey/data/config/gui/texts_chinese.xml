@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440022</GUID>
+      <Text>波旁威士忌</Text>
+    </Text>
+    <Text>
+      <GUID>1414018152</GUID>
+      <Text>昂贵的品牌储存不少于 15 年</Text>
+    </Text>
+  </ModOp>
+</ModOps>

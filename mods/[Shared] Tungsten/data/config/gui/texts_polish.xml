@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440024</GUID>
+      <Text>Wolfram</Text>
+    </Text>
+    <Text>
+      <GUID>1414018193</GUID>
+      <Text>Nigdy się nie topi.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

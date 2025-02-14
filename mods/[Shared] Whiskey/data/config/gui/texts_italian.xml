@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440022</GUID>
+      <Text>Whisky Bourbon</Text>
+    </Text>
+    <Text>
+      <GUID>1414018152</GUID>
+      <Text>Marchi costosi conservati per non meno di 15 anni</Text>
+    </Text>
+  </ModOp>
+</ModOps>

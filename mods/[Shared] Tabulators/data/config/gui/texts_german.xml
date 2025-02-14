@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440021</GUID>
+      <Text>Tabelliermaschinen</Text>
+    </Text>
+    <Text>
+      <GUID>1414018192</GUID>
+      <Text>Blitzschnelle Buchhaltung mit Lochkarten frisch aus den Regalen vom anderen Ende der Welt.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,107 @@
+<ModOps>
+  <!-- # Product -->
+  <ModOp Type="addNextSibling" GUID="1010217">
+
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1440024</GUID>
+          <Name>Imports - Tungsten</Name>
+          <IconFilename>data/graphics/ui/icons/goods/icon_tungsten.png</IconFilename>
+          <InfoDescription>1414018193</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText />
+          <LineID>5385</LineID>
+        </Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory>
+          <BasePrice>150</BasePrice>
+          <CivLevel>5</CivLevel>
+          <AssociatedRegion>Mod2</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Mod2</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Docklands -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="131764" Condition="!//FactoryBase[FactoryOutputs/Item/Product='1440024']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>SlotFactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1440245</GUID>
+            <Name>IsMainFactory_Fake: Tungsten</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/production/mining_05/mining_05.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/graphics/buildings/production/mining_05/mining_05.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/graphics/buildings/production/mining_05/mining_05.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1591</Product>
+                <StorageAmount>12</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1440024</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>250</Amount>
+                <InactiveAmount>125</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010115</Product>
+                <Amount>25</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Industrializable>
+            <MandatoryIndustrialization>1</MandatoryIndustrialization>
+          </Industrializable>
+          <Slot>
+            <SlotType>Copper</SlotType>
+            <WorkArea>1010546</WorkArea>
+          </Slot>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+</ModOps>
+  

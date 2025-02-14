@@ -1,0 +1,96 @@
+<ModOps>
+  <Group>
+    <!-- # Product: Honey -->
+    <ModOp Type="addNextSibling" GUID="1010217">
+
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1440021</GUID>
+            <Name>Imports - Tabulators</Name>
+            <IconFilename>data/graphics/ui/icons/goods/icon_tabulator.png</IconFilename>
+            <InfoDescription>1414018192</InfoDescription>
+          </Standard>
+          <Text>
+            <LocaText />
+            <LineID>5385</LineID>
+          </Text>
+          <Locked />
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11705</ProductCategory>
+            <BasePrice>1520</BasePrice>
+            <CivLevel>5</CivLevel>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Moderate</RegionType>
+              </Item>
+            </ProductionRegions>
+          </Product>
+          <ExpeditionAttribute>
+            <ExpeditionAttributes>
+              <BaseMorale>0</BaseMorale>
+              <Item>
+                <Attribute>Navigation</Attribute>
+                <Amount>10</Amount>
+              </Item>
+            </ExpeditionAttributes>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- # Fake MainFactory -->
+    <ModOp Type="addNextSibling" GUID="1010295" Condition="!//FactoryBase[FactoryOutputs/Item/Product='1440021']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1440244</GUID>
+            <Name>IsMainfactory_Fake: Tabulators</Name>
+            <IconFilename>data/graphics/ui/icons/goods/icon_tabulator.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Blocking />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1440021</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>1000</Amount>
+                <InactiveAmount>500</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010117</Product>
+                <Amount>300</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+</ModOps>

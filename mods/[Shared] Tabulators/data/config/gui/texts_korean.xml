@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440021</GUID>
+      <Text>집계 기계</Text>
+    </Text>
+    <Text>
+      <GUID>1414018192</GUID>
+      <Text>지구 반대편에서 갓 꺼낸 펀치 카드를 사용한 번개처럼 빠른 회계.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

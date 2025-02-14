@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440024</GUID>
+      <Text>鎢</Text>
+    </Text>
+    <Text>
+      <GUID>1414018193</GUID>
+      <Text>永不融化。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

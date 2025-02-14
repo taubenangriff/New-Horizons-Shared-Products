@@ -1,0 +1,119 @@
+<ModOps>
+    <!-- # Product -->
+    <ModOp Type="addNextSibling" GUID="1010217">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1440022</GUID>
+                    <Name>Imports - American Whiskey</Name>
+                    <IconFilename>data/graphics/ui/icons/goods/icon_whiskey.png</IconFilename>
+                    <InfoDescription>1414018152</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText />
+                    <LineID>5385</LineID>
+                </Text>
+                <Locked />
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11705</ProductCategory>
+                    <BasePrice>1057</BasePrice>
+                    <CivLevel>5</CivLevel>
+                    <AssociatedRegion>Moderate</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Moderate</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>20</BaseMorale>
+                    <ExpeditionAttributes>
+                      <Item>
+                        <Attribute>Diplomacy</Attribute>
+                        <Amount>30</Amount>
+                      </Item>
+                    </ExpeditionAttributes>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="800111"
+    Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1500010105']"
+    Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+    <Item>
+      <MoraleFactor>0.6</MoraleFactor>
+      <Product>1440022</Product>
+    </Item>
+  </ModOp>
+  
+    <!-- # Docklands -->
+    <Group>
+      <ModOp Type="addNextSibling" GUID="131764"
+        Condition="!//FactoryBase[FactoryOutputs/Item/Product='1440022']/IsMainFactory[text()='1']">
+        <Asset>
+          <Template>FactoryBuilding7</Template>
+          <Values>
+            <Standard>
+              <GUID>1440243</GUID>
+              <Name>IsMainFactory_Fake: Whiskey</Name>
+            </Standard>
+            <Building>
+              <AssociatedRegions>Moderate</AssociatedRegions>
+              <SecondPartyRelevant>0</SecondPartyRelevant>
+            </Building>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/graphics/buildings/production/processing_09/processing_09.cfg</Filename>
+                </Item>
+              </Variations>
+            </Object>
+            <Locked />
+            <FactoryBase>
+                <FactoryInputs>
+                  <Item>
+                    <Product>120034</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>6</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>120008</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>6</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>1010241</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>6</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+              <FactoryOutputs>
+                <Item>
+                  <Product>1440022</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>6</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <CycleTime>60</CycleTime>
+              <IsMainFactory>1</IsMainFactory>
+            </FactoryBase>
+            <Maintenance>
+              <Maintenances>
+                <Item>
+                  <Product>1010116</Product>
+                  <Amount>200</Amount>
+                </Item>
+              </Maintenances>
+            </Maintenance>
+            <Industrializable>
+              <MandatoryIndustrialization>1</MandatoryIndustrialization>
+            </Industrializable>
+          </Values>
+        </Asset>
+      </ModOp>
+    </Group>
+  </ModOps>
+  

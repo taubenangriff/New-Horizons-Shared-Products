@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440021</GUID>
+      <Text>タビュレーティングマシン</Text>
+    </Text>
+    <Text>
+      <GUID>1414018192</GUID>
+      <Text>地球の裏側から棚から出てきたばかりのパンチカードを使用した電光石火の会計。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

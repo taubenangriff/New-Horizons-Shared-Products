@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440021</GUID>
+      <Text>制表机</Text>
+    </Text>
+    <Text>
+      <GUID>1414018192</GUID>
+      <Text>使用来自世界另一端的新鲜货架上的穿孔卡进行闪电般的快速会计。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

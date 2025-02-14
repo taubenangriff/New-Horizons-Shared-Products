@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440022</GUID>
+      <Text>Bourbon Whisky</Text>
+    </Text>
+    <Text>
+      <GUID>1414018152</GUID>
+      <Text>Teure Marken, die nicht weniger als 15 Jahre gelagert werden</Text>
+    </Text>
+  </ModOp>
+</ModOps>

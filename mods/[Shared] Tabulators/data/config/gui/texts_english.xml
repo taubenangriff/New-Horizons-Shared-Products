@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440021</GUID>
+      <Text>Tabulating Machines</Text>
+    </Text>
+    <Text>
+      <GUID>1414018192</GUID>
+      <Text>Lightning fast accounting with punch cards fresh off the shelves from the other side of the world.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

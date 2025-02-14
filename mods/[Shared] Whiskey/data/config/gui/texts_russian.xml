@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440022</GUID>
+      <Text>Виски Бурбон</Text>
+    </Text>
+    <Text>
+      <GUID>1414018152</GUID>
+      <Text>Дорогие марки хранятся не менее 15 лет</Text>
+    </Text>
+  </ModOp>
+</ModOps>

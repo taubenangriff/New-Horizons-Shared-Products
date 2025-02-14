@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440021</GUID>
+      <Text>Tabulatrices</Text>
+    </Text>
+    <Text>
+      <GUID>1414018192</GUID>
+      <Text>Une comptabilité rapide comme l’éclair avec des cartes perforées fraîchement sorties des étagères de l’autre bout du monde.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
