@@ -48,7 +48,7 @@
     </Item>
   </ModOp>
 
-  <ModOp Type="add" GUID="800111" Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1500010105']" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+  <ModOp Type="add" GUID="800111" Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1440239']" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
     <Item>
       <MoraleFactor>0.25</MoraleFactor>
       <Product>1440239</Product>

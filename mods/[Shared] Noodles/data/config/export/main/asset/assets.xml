@@ -32,6 +32,7 @@
                         </Item>
                     </ExpeditionAttributes>
                 </ExpeditionAttribute>
+                <Locked />
             </Values>
         </Asset>
     </ModOp>
@@ -44,7 +45,7 @@
     </ModOp>
 
     <ModOp Type="add" GUID="800111"
-    Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1500010105']"
+    Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1440238']"
     Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
     <Item>
       <MoraleFactor>0.5</MoraleFactor>

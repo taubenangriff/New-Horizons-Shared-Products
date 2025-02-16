@@ -6,7 +6,7 @@
         <Template>Product</Template>
         <Values>
           <Standard>
-            <GUID>1440306 </GUID>
+            <GUID>1440306</GUID>
             <Name>Incense</Name>
             <IconFilename>data/graphics/ui/icons/goods/icon_incense.png</IconFilename>
           </Standard>

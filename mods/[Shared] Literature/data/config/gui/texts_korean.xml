@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440305</GUID>
+      <Text>동양문학</Text>
+    </Text>
+  </ModOp>
+</ModOps>

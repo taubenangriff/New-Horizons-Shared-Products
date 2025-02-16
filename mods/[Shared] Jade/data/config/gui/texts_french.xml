@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440304</GUID>
+      <Text>Sculptures en jade</Text>
+    </Text>
+  </ModOp>
+</ModOps>
