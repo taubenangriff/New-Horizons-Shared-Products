@@ -68,7 +68,7 @@
           </FactoryInputs>
           <FactoryOutputs>
             <Item>
-              <Product>24850</Product>
+              <Product>1957006151</Product>
               <Amount>1</Amount>
               <StorageAmount>2</StorageAmount>
             </Item>
@@ -84,11 +84,14 @@
               <InactiveAmount>25</InactiveAmount>
             </Item>
             <Item>
-              <Product>1010367</Product>
-              <Amount>80</Amount>
+              <Product>1010117</Product>
+              <Amount>125</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
+        <Industrializable>
+          <MandatoryIndustrialization>1</MandatoryIndustrialization>
+        </Industrializable>
       </Values>
     </Asset>
   </ModOp>
