@@ -2,11 +2,11 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1440024</GUID>
-      <Text>钨</Text>
+      <Text>钨锭</Text>
     </Text>
     <Text>
       <GUID>1414018193</GUID>
-      <Text>永不融化。</Text>
+      <Text>坚硬无比，永不融化。</Text>
     </Text>
   </ModOp>
 </ModOps>

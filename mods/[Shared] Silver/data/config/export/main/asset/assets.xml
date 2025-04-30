@@ -44,7 +44,7 @@
         </Standard>
         <Building>
           <BuildModeRandomRotation>90</BuildModeRandomRotation>
-          <AssociatedRegions>Colony01</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
         </Building>
         <Object>
           <Variations>
@@ -85,7 +85,7 @@
             </Item>
             <Item>
               <Product>1010117</Product>
-              <Amount>125</Amount>
+              <Amount>250</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
