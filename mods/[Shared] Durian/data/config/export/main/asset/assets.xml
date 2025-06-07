@@ -29,9 +29,7 @@
       </Asset>
     </ModOp>
   </Group>
-  <ModOp Type="add" GUID="800111"
-    Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1440307']"
-    Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+  <ModOp Type="add" GUID="800111" Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1440307']" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
     <Item>
       <MoraleFactor>0.1</MoraleFactor>
       <Product>1440307</Product>
@@ -48,17 +46,19 @@
   <!-- # Is Main Fake  -->
   <ModOp Type="addNextSibling" GUID="120008" Condition="!//FactoryBase[FactoryOutputs/Item/Product='1440307']/IsMainFactory[text()='1']">
     <Asset>
-      <Template>FactoryBuilding7</Template>
+      <Template>FreeAreaBuilding</Template>
       <Values>
         <Standard>
-          <GUID>1440247</GUID>
+          <GUID>1414020022</GUID>
           <Name>IsMainFactory_Fake: Durian Fruit</Name>
         </Standard>
         <Building>
-          <AssociatedRegions>Africa</AssociatedRegions>
+          <AssociatedRegions>Colony01</AssociatedRegions>
           <SecondPartyRelevant>0</SecondPartyRelevant>
         </Building>
-        <Blocking />
+        <Blocking>
+          <DeletePropsRadius>1</DeletePropsRadius>
+        </Blocking>
         <Object>
           <Variations>
             <Item>
@@ -68,12 +68,6 @@
         </Object>
         <Locked />
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1955</Product>
-              <StorageAmount>10</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
               <Product>1440307</Product>
@@ -109,6 +103,9 @@
           <AdditionalTreePropPercent>50</AdditionalTreePropPercent>
           <AdditionalTreeProp>data/graphics/props/storage/basket_pile_v1.prp</AdditionalTreeProp>
         </FreeAreaProductivity>
+        <Culture>
+          <CultureType>Landscaping</CultureType>
+        </Culture>
       </Values>
     </Asset>
   </ModOp>
