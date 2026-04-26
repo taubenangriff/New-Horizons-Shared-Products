@@ -2,11 +2,11 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1440200</GUID>
-      <Text>水稻</Text>
+      <Text>稻米</Text>
     </Text>
     <Text>
       <GUID>54005116</GUID>
-      <Text>一种比较短的粳米。</Text>
+      <Text>一种粘稠的短粒米饭。</Text>
     </Text>
   </ModOp>
 </ModOps>

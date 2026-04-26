@@ -1,12 +1,12 @@
 <ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts"> 
+  <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>1440212</GUID>
-      <Text>Водоросли</Text>
+      <GUID>1440200</GUID>
+      <Text>Рис</Text>
     </Text>
     <Text>
-      <GUID>54005117</GUID>
-      <Text>Светлые и квадратные съедобные водоросли.</Text>
+      <GUID>54005116</GUID>
+      <Text>Липкий, короткозернистый рис.</Text>
     </Text>
   </ModOp>
 </ModOps>
